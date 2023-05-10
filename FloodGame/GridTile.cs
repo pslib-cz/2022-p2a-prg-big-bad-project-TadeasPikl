@@ -20,6 +20,5 @@ namespace FloodGame
             this.y = y;
             this.colorId = colorId;
         }
-        
     }
 }

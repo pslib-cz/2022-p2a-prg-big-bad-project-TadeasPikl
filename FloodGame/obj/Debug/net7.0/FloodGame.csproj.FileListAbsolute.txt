@@ -1,0 +1,15 @@
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\obj\Debug\net7.0\FloodGame.csproj.AssemblyReference.cache
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\obj\Debug\net7.0\FloodGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\obj\Debug\net7.0\FloodGame.AssemblyInfoInputs.cache
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\obj\Debug\net7.0\FloodGame.AssemblyInfo.cs
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\obj\Debug\net7.0\FloodGame.csproj.CoreCompileInputs.cache
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\bin\Debug\net7.0\FloodGame.exe
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\bin\Debug\net7.0\FloodGame.deps.json
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\bin\Debug\net7.0\FloodGame.runtimeconfig.json
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\bin\Debug\net7.0\FloodGame.dll
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\bin\Debug\net7.0\FloodGame.pdb
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\obj\Debug\net7.0\FloodGame.dll
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\obj\Debug\net7.0\refint\FloodGame.dll
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\obj\Debug\net7.0\FloodGame.pdb
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\obj\Debug\net7.0\FloodGame.genruntimeconfig.cache
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\obj\Debug\net7.0\ref\FloodGame.dll

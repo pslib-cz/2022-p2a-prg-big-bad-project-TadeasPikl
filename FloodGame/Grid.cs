@@ -17,11 +17,6 @@ namespace FloodGame
             Tiles = GenerateGrid(width, height, colors);
         }
 
-        public Grid(int width, int colors)
-        {
-            Tiles = GenerateGrid(width, width, colors);
-        }
-
 
         private GridTile[,] GenerateGrid(int width, int height, int colors)
         {
@@ -34,6 +29,8 @@ namespace FloodGame
                     tiles[i,j] = new GridTile(i,j,rand.Next(colors));
                 }
             }
+
+            return tiles;
         }
     }
 }
