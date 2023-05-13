@@ -32,5 +32,20 @@ namespace FloodGame
 
             return tiles;
         }
+
+        public bool IsFinished()
+        {
+            int color = Tiles[0, 0].colorId;
+            foreach (GridTile tile in Tiles)
+            {
+                if (tile.colorId != color) return false;
+            }
+            return true;
+        }
+
+        public void FloodFill(int colorId)
+        {
+
+        }
     }
 }

@@ -9,17 +9,12 @@ namespace FloodGame
 {
     internal class Renderer
     {
-        private int cursorX;
-        private int cursorY;
         private Dictionary<int, ConsoleColor> colors;
         private Dictionary<ConsoleColor, ConsoleColor> contrastColors;
 
 
         public Renderer()
         {
-            cursorX = 0;
-            cursorY = 0;
-
             colors = new Dictionary<int, ConsoleColor>()
             {
                 {0, ConsoleColor.Red },
@@ -42,29 +37,41 @@ namespace FloodGame
         }
 
 
-        public void PrintTile(GridTile tile)
+        private void PrintTile(GridTile tile, int[] cursorLocation)
         {
             Console.BackgroundColor = colors[tile.colorId];
-            if (tile.x == cursorX && tile.y == cursorY)
+            if (tile.x == cursorLocation[0] && tile.y == cursorLocation[1])
             {
                 Console.ForegroundColor = contrastColors[Console.BackgroundColor];
-                Console.Write("O");
+                Console.Write("[]");
             }
-            else { Console.Write(" "); }
+            else
+            {
+                Console.ForegroundColor = colors[tile.colorId];
+                Console.Write("..");
+            }
         }
 
-        public void PrintGrid(Grid grid)
+        public void PrintGrid(Grid grid, int[] cursorLocation)
         {
+            Console.Clear();
             for (int i = 0; i < grid.Tiles.GetLength(0); i++)
             {
                 for (int j = 0; j < grid.Tiles.GetLength(1); j++)
                 {
-                    PrintTile(grid.Tiles[i, j]);
+                    PrintTile(grid.Tiles[i, j], cursorLocation);
                 }
+                LineEnd();
                 Console.WriteLine();
             }
-            Console.BackgroundColor = default;
-            Console.ForegroundColor = default;
+        }
+
+        private void LineEnd()
+        {
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.Write(".");
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }
