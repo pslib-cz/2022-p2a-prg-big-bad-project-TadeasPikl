@@ -27,7 +27,7 @@ namespace FloodGame
             return gridValues;
         }
 
-        private static List<string> Ask(string question)
+        public static List<string> Ask(string question)
         {
             Console.WriteLine(question);
             return Console.ReadLine().Split(",").ToList();
