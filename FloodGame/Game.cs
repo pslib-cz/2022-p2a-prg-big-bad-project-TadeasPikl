@@ -77,6 +77,7 @@ namespace FloodGame
 
                 PrintGrid(false);
                 Console.WriteLine($"Board finished with {moves} moves!");
+                Console.ReadKey();
             }
         }
 
