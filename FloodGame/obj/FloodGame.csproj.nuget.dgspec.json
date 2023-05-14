@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tadea\\Source\\Repos\\2022-p2a-prg-big-bad-project-TadeasPikl\\FloodGame\\FloodGame.csproj": {}
+    "C:\\Users\\tadea\\source\\repos\\2022-p2a-prg-big-bad-project-TadeasPikl\\FloodGame\\FloodGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tadea\\Source\\Repos\\2022-p2a-prg-big-bad-project-TadeasPikl\\FloodGame\\FloodGame.csproj": {
+    "C:\\Users\\tadea\\source\\repos\\2022-p2a-prg-big-bad-project-TadeasPikl\\FloodGame\\FloodGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tadea\\Source\\Repos\\2022-p2a-prg-big-bad-project-TadeasPikl\\FloodGame\\FloodGame.csproj",
+        "projectUniqueName": "C:\\Users\\tadea\\source\\repos\\2022-p2a-prg-big-bad-project-TadeasPikl\\FloodGame\\FloodGame.csproj",
         "projectName": "FloodGame",
-        "projectPath": "C:\\Users\\tadea\\Source\\Repos\\2022-p2a-prg-big-bad-project-TadeasPikl\\FloodGame\\FloodGame.csproj",
+        "projectPath": "C:\\Users\\tadea\\source\\repos\\2022-p2a-prg-big-bad-project-TadeasPikl\\FloodGame\\FloodGame.csproj",
         "packagesPath": "C:\\Users\\tadea\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\tadea\\Source\\Repos\\2022-p2a-prg-big-bad-project-TadeasPikl\\FloodGame\\obj\\",
         "projectStyle": "PackageReference",
