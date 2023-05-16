@@ -8,12 +8,24 @@ namespace FloodGame
 {
     internal class SavedScore
     {
-        public string name;
-        public int moves;
-        public int width;
-        public int height;
-        public int colors;
+        public string Name;
+        public int Moves;
+        public int Height;
+        public int Width;
+        public int Colors;
 
+        public SavedScore(string name, int moves, int width, int height, int colors)
+        {
+            Name = name;
+            Moves = moves;
+            Width = width;
+            Height = height;
+            Colors = colors;
+        }
 
+        public override string ToString()
+        {
+            return $"Moves: {Moves}, Name: {Name}";
+        }
     }
 }

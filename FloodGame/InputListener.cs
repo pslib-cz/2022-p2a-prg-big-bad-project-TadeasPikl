@@ -32,5 +32,11 @@ namespace FloodGame
             Console.WriteLine(question);
             return Console.ReadLine().Split(",").ToList();
         }
+
+        public static string AskSingle(string question)
+        {
+            Console.WriteLine(question);
+            return Console.ReadLine();
+        }
     }
 }
