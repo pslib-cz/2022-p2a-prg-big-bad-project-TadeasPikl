@@ -23,9 +23,9 @@ namespace FloodGame
         {
             GridTile[,] tiles = new GridTile[width, height];
 
-            for (int i = 0; i < height; i++)
+            for (int i = 0; i < width; i++)
             {
-                for (int j = 0; j < width; j++)
+                for (int j = 0; j < height; j++)
                 {
                     tiles[i,j] = new GridTile(i,j,rand.Next(colors));
                 }

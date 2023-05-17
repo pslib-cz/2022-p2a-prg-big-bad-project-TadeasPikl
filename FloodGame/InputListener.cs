@@ -22,7 +22,7 @@ namespace FloodGame
             do
             {
                 answers = Ask("Enter number of colors(max 6): ");
-            } while (!int.TryParse(answers[0], out gridValues[2]) && int.Parse(answers[0]) > 6 && int.Parse(answers[0]) < 2);
+            } while (!int.TryParse(answers[0], out gridValues[2]) && gridValues[2] > 6 && gridValues[2] < 2);
 
             return gridValues;
         }
