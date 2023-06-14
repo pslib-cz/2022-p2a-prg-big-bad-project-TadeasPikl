@@ -61,6 +61,7 @@ namespace FloodGame
             {
                 NewGrid(gridParams[0], gridParams[1], gridParams[2]);
                 cursorLocation = new int[] { 0, 0 };
+                moves = 0;
 
                 while (!grid.IsFinished())
                 {
