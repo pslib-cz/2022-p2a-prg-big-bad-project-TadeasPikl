@@ -1,0 +1,5 @@
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\bin\Release\net7.0\publish\FloodGame.exe
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\bin\Release\net7.0\publish\FloodGame.dll
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\bin\Release\net7.0\publish\FloodGame.deps.json
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\bin\Release\net7.0\publish\FloodGame.runtimeconfig.json
+C:\Users\tadeas.pikl.021\source\repos\2022-p2a-prg-big-bad-project-TadeasPikl\FloodGame\bin\Release\net7.0\publish\FloodGame.pdb
