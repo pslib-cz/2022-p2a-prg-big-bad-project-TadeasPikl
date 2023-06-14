@@ -10,19 +10,26 @@ namespace FloodGame
     {
         private List<SavedScore> Scores;
         private string SaveLocation;
+        private string SaveDirectory;
 
-        public ScoreManager(string saveLocation)
+        public ScoreManager(string saveDirectory)
         {
             Scores = new();
-            SaveLocation = saveLocation;
+            SaveDirectory = saveDirectory;
+            SaveLocation = saveDirectory + "/scores.🗿";
 
-            if (File.Exists(saveLocation))
+            if (!Directory.Exists(SaveDirectory))
+            {
+                Directory.CreateDirectory(SaveDirectory);
+            }
+
+            if (File.Exists(SaveLocation))
             {
                 LoadScores();
             }
             else
             {
-                File.Create(saveLocation).Close();
+                File.Create(SaveLocation).Close();
             }
         }
 

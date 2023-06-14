@@ -24,7 +24,7 @@ namespace FloodGame
         {
             renderer = new Renderer();
             input = new InputListener();
-            scoreManager = new ScoreManager("./scores.🗿");
+            scoreManager = new ScoreManager(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "/FloodGameTG");
             cursorLocation = new int[2] {0, 0};
             moves = 0;
         }
